@@ -115,7 +115,7 @@ SaneParLoader::SaneParLoader()
       for (auto& f: c.second)
         res.addFile(f);
       fPars[c.first]=res;
-      std::cout << "===== " << c.first << "=====\n";
+      std::cout << "===== " << c.first << " =====\n";
       std::cout <<res << "\n";
     }
 }

@@ -1,0 +1,21 @@
+Setting R3BCONF to testconf/fail/negint//.
+[INFO] Parsing yaml configurations in "testconf/fail/negint//".
+
+[WARN] yaml document zero does not contain the key 'created-at' 
+[WARN] yaml document zero does not contain the key 'created-by' 
+[WARN] yaml document zero does not contain the key 'command' 
+[WARN] yaml document zero does not contain the key 'version' 
+[WARN] yaml document zero does not contain the key 'comment' 
+[WARN] yaml document zero does not contain the key 'action' 
+[FATAL] roothacks::impl::parFile::parFile(std::string, uint64_t, uint64_t, std::string): Error: parameter file valid for less than 1ns: 
+ testconf/fail/negint//bla.yaml                       [  1669136690.000000005 TAI (approx 2022-11-22 17:04:13 UTC)  to   1669136690.000000002 TAI (approx 2022-11-22 17:04:13 UTC)]   
+
+[FATAL] testconf/fail/negint//bla.yaml, yaml document 1: 
+------------------------------------------
+wrtsEnd: 1669136690000000002
+wrtsStart: 1669136690000000005
+comment: A setting for just three nanoseconds
+------------------------------------------
+   Error: LoggedError  . This time range will be ignored.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  LoggedError

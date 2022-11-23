@@ -1,0 +1,19 @@
+Setting R3BCONF to testconf/fail/nonmon//.
+[INFO] Parsing yaml configurations in "testconf/fail/nonmon//".
+
+[WARN] yaml document zero does not contain the key 'created-at' 
+[WARN] yaml document zero does not contain the key 'created-by' 
+[WARN] yaml document zero does not contain the key 'command' 
+[WARN] yaml document zero does not contain the key 'version' 
+[WARN] yaml document zero does not contain the key 'comment' 
+[WARN] yaml document zero does not contain the key 'action' 
+[INFO] Adding  testconf/fail/nonmon//bla.yaml                       [  1669130000.000000000 TAI (approx 2022-11-22 15:12:43 UTC)  to   1669136691.000000000 TAI (approx 2022-11-22 17:04:14 UTC)]  range A 
+[FATAL] testconf/fail/nonmon//bla.yaml, yaml document 2: 
+------------------------------------------
+comment: range B
+wrtsStart: 1669120000000000000
+wrtsEnd: 1669121000000000000
+------------------------------------------
+   Error: wrtsStart is smaller than previous wrtsEnd.  . This time range will be ignored.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  LoggedError

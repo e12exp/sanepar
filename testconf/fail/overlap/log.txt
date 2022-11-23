@@ -1,0 +1,23 @@
+Setting R3BCONF to testconf/fail/overlap//.
+[INFO] Parsing yaml configurations in "testconf/fail/overlap//".
+
+[WARN] yaml document zero does not contain the key 'created-at' 
+[WARN] yaml document zero does not contain the key 'created-by' 
+[WARN] yaml document zero does not contain the key 'command' 
+[WARN] yaml document zero does not contain the key 'version' 
+[WARN] yaml document zero does not contain the key 'comment' 
+[WARN] yaml document zero does not contain the key 'action' 
+[INFO] Adding  testconf/fail/overlap//bla.yaml                      [  1669130000.000000000 TAI (approx 2022-11-22 15:12:43 UTC)  to   1669136691.000000000 TAI (approx 2022-11-22 17:04:14 UTC)]  range A 
+[WARN] yaml document zero does not contain the key 'created-at' 
+[WARN] yaml document zero does not contain the key 'created-by' 
+[WARN] yaml document zero does not contain the key 'command' 
+[WARN] yaml document zero does not contain the key 'version' 
+[WARN] yaml document zero does not contain the key 'comment' 
+[WARN] yaml document zero does not contain the key 'action' 
+[INFO] Adding  testconf/fail/overlap//blubb.yaml                    [  1669136609.900000000 TAI (approx 2022-11-22 17:02:52 UTC)  to   1669136694.000000000 TAI (approx 2022-11-22 17:04:17 UTC)]  range B 
+[FATAL] bool roothacks::impl::parFile::is_subset_of(const roothacks::impl::parFile&) const: Error: partial overlap in parameter files validity: 
+ testconf/fail/overlap//blubb.yaml                    [  1669136609.900000000 TAI (approx 2022-11-22 17:02:52 UTC)  to   1669136694.000000000 TAI (approx 2022-11-22 17:04:17 UTC)]  range B 
+ testconf/fail/overlap//bla.yaml                      [  1669130000.000000000 TAI (approx 2022-11-22 15:12:43 UTC)  to   1669136691.000000000 TAI (approx 2022-11-22 17:04:14 UTC)]  range A 
+
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  LoggedError

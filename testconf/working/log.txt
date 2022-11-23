@@ -1,0 +1,43 @@
+Setting R3BCONF to testconf/working//.
+[INFO] Parsing yaml configurations in "testconf/working//".
+
+[WARN] yaml document zero does not contain the key 'created-at' 
+[WARN] yaml document zero does not contain the key 'created-by' 
+[WARN] yaml document zero does not contain the key 'command' 
+[WARN] yaml document zero does not contain the key 'version' 
+[WARN] yaml document zero does not contain the key 'comment' 
+[WARN] yaml document zero does not contain the key 'action' 
+[INFO] Adding  testconf/working//bar.yaml                           [  1669100000.000000000 TAI (approx 2022-11-22 06:52:43 UTC)  to   1669236690.000000052 TAI (approx 2022-11-23 20:50:53 UTC)]  A longer period 
+[WARN] yaml document zero does not contain the key 'created-at' 
+[WARN] yaml document zero does not contain the key 'created-by' 
+[WARN] yaml document zero does not contain the key 'command' 
+[WARN] yaml document zero does not contain the key 'version' 
+[WARN] yaml document zero does not contain the key 'comment' 
+[WARN] yaml document zero does not contain the key 'action' 
+[INFO] Adding  testconf/working//baz.yaml                           [  1669136690.000000000 TAI (approx 2022-11-22 17:04:13 UTC)  to   1669136690.000000010 TAI (approx 2022-11-22 17:04:13 UTC)]  foobar data 
+[WARN] yaml document zero does not contain the key 'created-at' 
+[WARN] yaml document zero does not contain the key 'created-by' 
+[WARN] yaml document zero does not contain the key 'command' 
+[WARN] yaml document zero does not contain the key 'version' 
+[WARN] yaml document zero does not contain the key 'comment' 
+[WARN] yaml document zero does not contain the key 'action' 
+[INFO] Adding  testconf/working//bla.yaml                           [  1669136690.000000002 TAI (approx 2022-11-22 17:04:13 UTC)  to   1669136690.000000005 TAI (approx 2022-11-22 17:04:13 UTC)]  A setting for just three nanoseconds 
+[WARN] yaml document zero does not contain the key 'created-at' 
+[WARN] yaml document zero does not contain the key 'created-by' 
+[WARN] yaml document zero does not contain the key 'command' 
+[WARN] yaml document zero does not contain the key 'version' 
+[WARN] yaml document zero does not contain the key 'comment' 
+[WARN] yaml document zero does not contain the key 'action' 
+[INFO] Adding  testconf/working//foo.yaml                           [          42.000000000 TAI (approx 1970-01-01 00:00:05 UTC)  to           50.000000000 TAI (approx 1970-01-01 00:00:13 UTC)]  In the beginning 
+[INFO] Adding  testconf/working//foo.yaml                           [         420.000000000 TAI (approx 1970-01-01 00:06:23 UTC)  to          420.000000001 TAI (approx 1970-01-01 00:06:23 UTC)]  Still early 
+[INFO] Adding  testconf/working//foo.yaml                           [  1669136690.000000000 TAI (approx 2022-11-22 17:04:13 UTC)  to   1669136690.000000052 TAI (approx 2022-11-22 17:04:13 UTC)]  Modern 
+===== blubb =====
+ NOFILE                                               [           0.000000000 TAI (approx 1969-12-31 23:59:23 UTC)  to  18446744073.709551615 TAI (approx 2554-07-21 23:33:56 UTC)]  WRTS Range 
+* testconf/working//foo.yaml                          [          42.000000000 TAI (approx 1970-01-01 00:00:05 UTC)  to           50.000000000 TAI (approx 1970-01-01 00:00:13 UTC)] * In the beginning 
+* testconf/working//foo.yaml                          [         420.000000000 TAI (approx 1970-01-01 00:06:23 UTC)  to          420.000000001 TAI (approx 1970-01-01 00:06:23 UTC)] * Still early 
+* testconf/working//bar.yaml                          [  1669100000.000000000 TAI (approx 2022-11-22 06:52:43 UTC)  to   1669236690.000000052 TAI (approx 2022-11-23 20:50:53 UTC)] * A longer period 
+** testconf/working//foo.yaml                         [  1669136690.000000000 TAI (approx 2022-11-22 17:04:13 UTC)  to   1669136690.000000052 TAI (approx 2022-11-22 17:04:13 UTC)] ** Modern 
+*** testconf/working//bla.yaml                        [  1669136690.000000002 TAI (approx 2022-11-22 17:04:13 UTC)  to   1669136690.000000005 TAI (approx 2022-11-22 17:04:13 UTC)] *** A setting for just three nanoseconds 
+===== foobar =====
+ NOFILE                                               [           0.000000000 TAI (approx 1969-12-31 23:59:23 UTC)  to  18446744073.709551615 TAI (approx 2554-07-21 23:33:56 UTC)]  WRTS Range 
+* testconf/working//baz.yaml                          [  1669136690.000000000 TAI (approx 2022-11-22 17:04:13 UTC)  to   1669136690.000000010 TAI (approx 2022-11-22 17:04:13 UTC)] * foobar data 
