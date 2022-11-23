@@ -1,0 +1,7 @@
+data-type: foobar
+---
+wrtsStart: 1669136690000000000
+wrtsEnd:   1669136690000000010
+comment: foobar data
+---
+foo: bar

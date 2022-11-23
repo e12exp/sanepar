@@ -1,0 +1,11 @@
+data-type: blubb
+---
+wrtsStart: 1669130000000000000
+wrtsEnd:   1669136691000000000
+comment: range A
+---
+wrtsStart: 1669120000000000000
+wrtsEnd:   1669121000000000000
+comment: range B
+---
+foo: bar

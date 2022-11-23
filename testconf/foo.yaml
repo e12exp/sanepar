@@ -1,0 +1,15 @@
+data-type: blubb
+--- # foo
+wrtsStart: 42000000000
+wrtsEnd: 50000000000
+comment: In the beginning
+--- # foo
+wrtsStart: 420000000000
+wrtsEnd: 420000000001
+comment: Still early
+---
+wrtsStart: 1669136690000000000
+wrtsEnd:   1669136690000000052
+comment: Modern
+---
+bar: baz
